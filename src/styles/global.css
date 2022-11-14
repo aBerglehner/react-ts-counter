@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+    font-size: 1.5rem;
+    box-sizing: border-box;
+    margin-top: 0;
+}
+
+p {
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    text-transform: capitalize;
+}
+
+.btn {
+    display: inline-block;
+    background: hsl(205, 78%, 60%);
+    color: #fff;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.25rem;
+    border-color: transparent;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.btn:hover {
+    background: hsl(205, 86%, 17%);
+    color: hsl(205, 78%, 60%);
+}
